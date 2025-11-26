@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        // Perintah untuk membuat tabel 'beritas' (TIDAK BERUBAH)
+        
         Schema::create('beritas', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
@@ -26,7 +26,6 @@ return new class extends Migration
             $table->softDeletes(); // Menambahkan deleted_at
         });
 
-        // TAMBAHAN: Perintah untuk membuat tabel 'photos' (BERJALAN SETELAH 'beritas' DIBUAT)
         Schema::create('photos', function (Blueprint $table) {
             $table->id();
             $table->string('judul');

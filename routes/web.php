@@ -23,6 +23,7 @@ use App\Http\Controllers\Admin\AgendaController as AdminAgendaController;
 use App\Http\Controllers\Admin\VideoController as AdminVideoController;
 use App\Http\Controllers\Admin\PartnerController as AdminPartnerController;
 use App\Http\Controllers\Admin\AnalysisController;
+use App\Http\Controllers\Admin\InternalLinkController;
 
 // =========================================================================
 // == RUTE PUBLIK
@@ -82,6 +83,7 @@ Route::middleware(['auth', 'is_admin'])->prefix('admin')->name('admin.')->group(
     Route::resource('videos', AdminVideoController::class)->except(['show']);
     Route::resource('users', \App\Http\Controllers\Admin\UserController::class)->except(['show']);
     Route::resource('partners', AdminPartnerController::class);
+    Route::resource('internal-links', InternalLinkController::class);
 
     // --- RUTE ANALISIS (Versi Sederhana) ---
     Route::get('/analysis', [AnalysisController::class, 'index'])->name('analysis.index');

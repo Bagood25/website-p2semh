@@ -72,10 +72,14 @@
                             <span>Tautan Terkait</span>
                         </a>
                     </li>
+
+                    <li>
+                        <a href="{{ route('admin.internal-links.index') }}" class="flex items-center space-x-3 px-4 py-2 rounded-lg hover:bg-gray-700 transition duration-200 {{ request()->routeIs('admin.internal-links.*') ? 'bg-gray-700' : '' }}">
+                        <i class="fas fa-fw fa-link"></i>
+                        <span>Tautan Internal</span>
+                        </a>
+                    </li>
                     
-                    {{-- =================================== --}}
-                    {{-- == MENU ANALISIS DATA SUDAH BENAR == --}}
-                    {{-- =================================== --}}
                     <li>
                         <a href="{{ route('admin.analysis.index') }}" class="flex items-center space-x-3 px-4 py-2 rounded-lg hover:bg-gray-700 transition duration-200 {{ request()->routeIs('admin.analysis.*') ? 'bg-gray-700' : '' }}">
                             <i class="fas fa-fw fa-chart-bar"></i>

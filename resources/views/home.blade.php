@@ -4,6 +4,27 @@
 
 @section('content')
 
+<div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+            Tautan Internal
+        </h2>
+        <div class="flex flex-wrap justify-center items-center gap-8">
+            @forelse($internalLinks as $link)
+                <a href="{{ $link->url }}" target="_blank" rel="noopener noreferrer" title="{{ $link->name }}"
+                   class="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-64">
+                    <div class="flex items-center justify-center h-40">
+                        <img src="{{ asset('storage/' . $link->logo) }}" alt="{{ $link->name }}" class="max-h-full max-w-full object-contain">
+                    </div>
+                    <p class="text-center text-gray-700 font-semibold mt-4 truncate">{{ $link->name }}</p>
+                </a>
+            @empty
+                <p class="text-center text-gray-500">
+                    Belum ada tautan internal yang ditambahkan.
+                </p>
+            @endforelse
+        </div>
+    </div>
+
     {{-- Slider Berita Utama (P2SEMH) --}}
     <section id="berita-slider" class="my-16 container mx-auto px-6">
         <div class="relative w-full overflow-hidden rounded-lg shadow-lg">
@@ -298,7 +319,7 @@
         {{-- KODE PENGGANTI DENGAN BINGKAI PERSEGI YANG LEBIH BESAR --}}
 
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Tautan Terkait</h2>
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Tautan Eksternal Terkait</h2>
 
         {{-- Menggunakan flexbox untuk menampilkan logo secara berjajar dan wrapping --}}
         <div class="flex flex-wrap justify-center items-center gap-8">

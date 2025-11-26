@@ -14,9 +14,6 @@
         body { font-family: 'Inter', sans-serif; }
     </style>
 
-    {{-- ====================================================== --}}
-    {{-- == TEMPAT UNTUK MEMUAT STYLE TAMBAHAN DARI HALAMAN LAIN == --}}
-    {{-- ====================================================== --}}
     @stack('styles')
 
 </head>
@@ -37,9 +34,6 @@
         });
     </script>
 
-    {{-- ====================================================== --}}
-    {{-- ==         KODE LENGKAP JAVASCRIPT UNTUK SLIDER      == --}}
-    {{-- ====================================================== --}}
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -80,10 +74,7 @@
 
         });
     </script>
-    
-    {{-- ====================================================== --}}
-    {{-- == TEMPAT UNTUK MEMUAT SCRIPT TAMBAHAN DARI HALAMAN LAIN == --}}
-    {{-- ====================================================== --}}
+
     @stack('scripts')
 
 </body>

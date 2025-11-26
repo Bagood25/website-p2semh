@@ -31,13 +31,6 @@ class News extends Model
     }
 
     /**
-     * Relasi 'category' sengaja DIHAPUS dari sini.
-     * Kolom 'kategori' di database Anda berisi string (contoh: 'berita_utama'),
-     * bukan ID yang bisa dihubungkan ke tabel lain, sehingga relasi Eloquent akan gagal.
-     * Kita akan menanganinya langsung di view.
-     */
-
-    /**
      * Get the route key for the model.
      *
      * @return string
