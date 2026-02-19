@@ -57,7 +57,8 @@ Route::get('/faq', fn() => view('faq'));
 Route::get('/peta-situs', fn() => view('peta_situs'));
 Route::get('/sitemap.xml', fn() => response()->file(public_path('sitemap.xml')));
 Route::get('/search', [SearchController::class, 'search'])->name('search');
-
+// Tambahkan baris ini:
+Route::get('/file-download/{filename}', [DownloadController::class, 'downloadFile'])->name('download.file');
 
 // --- Rute Autentikasi ---
 Auth::routes();

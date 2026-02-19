@@ -52,9 +52,8 @@
 
                         {{-- Tombol Download --}}
                         {{-- PERBAIKAN 2: Menggunakan path dan nama file yang benar --}}
-                        <a href="{{ asset('storage/downloads/' . $item->nama_file) }}" 
-                           class="mt-auto w-full inline-block text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300" 
-                           download>
+                        <a href="{{ route('download.file', $item->nama_file) }}" 
+   class="mt-auto w-full inline-block text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
                             <i class="fas fa-download mr-2"></i> Unduh Dokumen
                         </a>
                     </div>

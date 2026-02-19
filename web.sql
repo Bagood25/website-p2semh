@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 17, 2025 at 02:51 AM
+-- Generation Time: Dec 16, 2025 at 11:08 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -156,28 +156,25 @@ CREATE TABLE `downloads` (
 --
 
 INSERT INTO `downloads` (`id`, `judul`, `deskripsi`, `nama_file`, `kategori`, `created_at`, `updated_at`) VALUES
-(6, 'Undang - Undang Nomor 41 Tahun 1999', 'Undang - Undang', 'p5sHYyLT5bLuMAn7N6ltcP8iBtVBBpGbtwLb3VDe.pdf', 'peraturan', '2025-09-03 15:56:49', '2025-09-03 15:56:49'),
-(7, 'Peraturan Pemerintah Nomor 46 Tahun 2017 Tentang Instrumen Ekonomi Lingkungan Hidup', 'Peraturan Pemerintah', 'QCOrTsIv8YGbCnp6wmXo7rvHdvdrqhUb6UZnRErE.pdf', 'peraturan', '2025-09-03 15:58:19', '2025-09-03 15:58:19'),
-(8, 'Peraturan Presiden Nomor 175 Tahun 2024 Tentang Kementerian Kehutanan', 'Peraturan Presiden', '6KqSRBBADyCBFfs5a6ai7pLohfl93BFAZR4qH2oG.pdf', 'peraturan', '2025-09-03 16:00:14', '2025-09-03 16:00:14'),
-(9, 'Peraturan Presiden Nomor 5 Tahun 2025 Tentang Penertiban Kawasan Hutan', 'Peraturan Presiden', 'ZbvFXVBvLpZSQoo5ZJL92zuZDKM37zHpSnZPq6Rv.pdf', 'peraturan', '2025-09-03 16:01:46', '2025-09-03 16:01:46'),
-(10, 'Peraturan Menteri Kehutanan Nomor 1 Tahun 2024 Tentang Organisasi dan Tata Kerja Kementerian Kehutanan', 'Peraturan Menteri', 'h5KR18TSyZEd4XRxA1Be3G8J2eFBnfiR6kwQbpHf.pdf', 'peraturan', '2025-09-03 16:03:14', '2025-09-03 16:03:14'),
-(11, 'Keputusan Menteri Kehutanan Republik Indonesia Nomor 1 Tahun 2024 Tentang Logo Kementerian Kehutanan Republik Indonesia', 'Keputusan Menteri', 'Lqn4cbM5eoch9WVph3AjIihNwxuWlF39FG51BZ1S.pdf', 'peraturan', '2025-09-03 16:06:09', '2025-09-03 16:06:09'),
-(12, 'Peraturan Menteri Lingkungan Hidup dan Kehutanan Republik Indonesia Nomor 4 Tahun 2023 Tentang Pengelolaan Perhutanan Sosial pada Kawasan Hutan dengan Pengelolaan Khusus', 'Peraturan Menteri Lingkungan Hidup', 'Jw9m7xWMJRO6t6hg4Ce00FaY5HDdgSjwJ7TDGGpL.pdf', 'peraturan', '2025-09-03 16:08:01', '2025-09-03 16:08:01'),
-(13, 'Peraturan Menteri Lingkungan Hidup dan Kehutanan Republik Indonesia Nomor P.12 Tahun 2017 tentang Pedoman Umum Penyaluran Bantuan Lainnya yang Memiliki Karakteristik Bantuan Pemerintah di Lingkungan Kementerian Lingkungan Hidup dan Kehutanan', 'Peraturan Menteri', 'Peog8X222De9QnxvQyItG3FCeBFKh2PsQBi9A3c9.pdf', 'peraturan', '2025-09-03 18:23:13', '2025-09-03 18:23:13'),
-(14, 'Permen LHK Nomor P.83 Tahun 2019 tentang Perubahan Kedua atas Permen LHK Nomor P.12 Tahun 2017 tentang Pedoman Penyaluran Bantuan Pemerintah di Lingkungan KLHK', 'Peraturan Menteri', 'JAPVwGrYNMdILEn8N3PSZooZRJZhu0WUR7oNITe4.pdf', 'peraturan', '2025-09-03 18:31:13', '2025-09-03 18:31:13'),
-(15, 'Peraturan Menteri Lingkungan Hidup dan Kehutanan Republik Indonesia Nomor P.83 Tahun 2016 tentang Perhutanan Sosial', 'Peraturan Menteri', 'ugYKxMTfsVwnWhIbLD9Ey1MNLIOX3VvesEHRDLFJ.pdf', 'peraturan', '2025-09-03 18:32:29', '2025-09-03 18:32:29'),
-(16, 'Permenkeu Nomor 23 Tahun 2025 tentang Juknis THR dan Gaji 13 bagi ASN, Pensiunan, dan Penerima Tunjangan Tahun 2025', 'Peraturan Menteri', 'TyPVdp20GGFkwg6SLwalbhXduy2hHzJguvP6OALn.pdf', 'peraturan', '2025-09-03 18:33:51', '2025-09-03 18:33:51'),
-(17, 'Memorandum Menteri Kehutanan Nomor M.4 Tahun 2025 tentang Penyesuaian Pelaksanaan Kegiatan Efisiensi Belanja APBN Kementerian Kehutanan Tahun 2025', 'Memorandum', 'Iq4PfLp4EksbNIL1Gjt8uKq2hB5iHEg1VaXhKZOj.pdf', 'peraturan', '2025-09-03 18:34:54', '2025-09-03 18:34:54'),
-(18, 'Peraturan Menteri Kehutanan Republik Indonesia Nomor 3 Tahun 2025 tentang Organisasi dan Tata Kerja Balai Pemantapan Kawasan Hutan', 'Peraturan Menteri', 'sBF7Ys86rtNImgeQgjHxeXHTfz57QIIs7y91Mo3y.pdf', 'peraturan', '2025-09-03 18:35:53', '2025-09-03 18:35:53'),
-(19, 'Peraturan Menteri Kehutanan Republik Indonesia Nomor 4 Tahun 2025 tentang Organisasi dan Tata Kerja Unit Pelaksana Teknis Direktorat Jenderal Konservasi Sumber Daya Alam dan Ekosistem', 'Peraturan Menteri', 'TTMmLVw9qpKnoBUC2bNbwIVVnRMmgxX65OKZRMMc.pdf', 'peraturan', '2025-09-03 18:36:33', '2025-09-03 18:36:33'),
-(20, 'Peraturan Menteri Kehutanan Republik Indonesia Nomor 5 Tahun 2025 tentang Organisasi dan Tata Kerja Unit Pelaksana Teknis Direktorat Jenderal Pengelolaan Daerah Aliran Sungai dan Rehabilitasi Hutan', 'Peraturan Menteri', 'bd8ilQ7xB3r9aXI3Op0j2cDNEK2gVfUkC7ISo1bv.pdf', 'peraturan', '2025-09-03 18:37:44', '2025-09-03 18:37:44'),
-(21, 'Peraturan Menteri Kehutanan Republik Indonesia Nomor 6 Tahun 2025 tentang Organisasi dan Tata Kerja Balai Pengelolaan Hutan Lestari', 'Peraturan Menteri', 'qa7yOoTpSwUt2XYuZtPQzFEZ6TggLoLgludLLDRP.pdf', 'peraturan', '2025-09-03 18:40:46', '2025-09-03 18:40:46'),
-(22, 'Peraturan Menteri Kehutanan Republik Indonesia Nomor 7 Tahun 2025 tentang Organisasi dan Tata Kerja Balai Perhutanan Sosial', 'Peraturan Menteri', '9Iu72qFpGEw5PN0okrkqkxfJQieBrvMzVZwShiRk.pdf', 'peraturan', '2025-09-03 18:41:31', '2025-09-03 18:41:31'),
-(23, 'Peraturan Menteri Kehutanan Republik Indonesia Nomor 8 Tahun 2025 tentang Organisasi dan Tata Kerja Unit Pelaksana Teknis Direktorat Jenderal Penegakan Hukum Kehutanan', 'Peraturan Menteri', '3v7vnqb5j14JBY85aVqawlp5CjcuqLHfRZSvwek4.pdf', 'peraturan', '2025-09-03 18:42:24', '2025-09-03 18:42:24'),
-(24, 'Peraturan Menteri Kehutanan Republik Indonesia Nomor 9 Tahun 2025 tentang Organisasi dan Tata Kerja Unit Pelaksana Teknis Badan Penyuluhan dan Pengembangan Sumber Daya Manusia', 'Peraturan Menteri', 'zo0vnaHyy6iLeNgyhTAPTdeAnrLNRDFxZLxfwyFJ.pdf', 'peraturan', '2025-09-03 18:43:08', '2025-09-03 18:43:08'),
-(25, 'Peraturan Menteri Kehutanan Republik Indonesia Nomor 10 Tahun 2025 tentang Penyaluran Bantuan Pemerintah di Lingkungan Kementerian Kehutanan', 'Peraturan Menteri', '0bUjSUyA9t7JqFUfiS065zfAnrXS17CF4n3YnahB.pdf', 'peraturan', '2025-09-03 18:43:46', '2025-09-03 18:43:46'),
-(26, 'Surat Keputusan Kepala Pusat Pengembangan Sosial Ekonomi Masyarakat Hutan Nomor 3 Tahun 2025 tentang Tim Penilaian Efektivitas Penerapan Kebijakan Teknis Sosial Ekonomi Masyarakat Hutan Tahun 2025', 'Surat Keputusan', 'eeh7GM7F8jbxzHO5kr2nTyc3tryQpGujN7xkjX2M.pdf', 'peraturan', '2025-09-03 18:53:41', '2025-09-03 18:53:41'),
-(27, 'Surat Keputusan Kapus P2SEMH Nomor 4 Tahun 2025 tentang Panitia Dialog Kerja Kolaborasi Lintas Sektor P2SEMH', 'Surat Keputusan', '6nlZ1NfqJ1bboA7kGBWcbYTUrQPCQWI9DMOcap4X.pdf', 'peraturan', '2025-09-03 18:55:43', '2025-09-03 18:55:43');
+(28, 'UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 41 TAHUN 1999 TENTANG KEHUTANAN', 'Undang - Undang', 'uHrFvQW8CnL0OvGuuD2d8DvVkFnafmFERbmyRe6s.pdf', 'peraturan', '2025-11-26 18:24:04', '2025-11-26 18:24:04'),
+(29, 'PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 46 TAHUN 2017 TENTANG INSTRUMEN EKONOMI LINGKUNGAN HIDUP', 'Peraturan Pemerintah', 'pYhJAQANoO273XnRQrCRWp11Q1g9Y2T1HN7vGKAR.pdf', 'peraturan', '2025-11-26 18:25:09', '2025-11-26 18:25:09'),
+(30, 'PERATURAN PRESIDEN REPUBLIK INDONESIA NOMOR 175 TAHUN 2024 TENTANG KEMENTERIAN KEHUTANAN', 'Peraturan Presiden', '1WZ9T4ItkMTHYM9fLsEvTxwnMrLu0CWKdnsh2tZk.pdf', 'peraturan', '2025-11-26 18:29:14', '2025-11-26 18:29:14'),
+(31, 'PERATURAN PRESIDEN REPUBLIK INDONESTA NOMOR 5 TAHUN 2025 TENTANG PENERTIBAN IGWASAN HUTAN', 'Peraturan Presiden', 'EqwAu2gdFpZzEW0uBMksmLO7uXb6IHZh9mNzcpKQ.pdf', 'peraturan', '2025-11-26 18:33:28', '2025-11-26 18:33:28'),
+(32, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 1 TAHUN 2024 TENTANG ORGANISASI DAN TATA KERJA KEMENTERIAN KEHUTANAN', 'Peraturan Menteri', 'TGt0bKY3jGcGHQ2GfLRS0qI3xSkNrV0J4fb36prr.pdf', 'peraturan', '2025-11-26 18:37:25', '2025-11-26 18:37:25'),
+(33, 'KEPUTUSAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 1 TAHUN 2024 TENTANG LOGO KEMENETERIAN KEHUTANAN REPUBLIK INDONESIA', 'Keputusan Menteri', 'CCCQvCbgRaIUCHVjhrweFhpeVjfl0bF3NwfSgscC.pdf', 'peraturan', '2025-11-26 18:40:20', '2025-11-26 18:40:20'),
+(34, 'PERATURAN MENTERI LINGKUNGAN HIDUP DAN KEHUTANAN REPUBLIK INDONESIA NOMOR 4 TAHUN 2023 TENTANG PENGELOLAAN PERHUTANAN SOSIAL PADA KAWASAN HUTAN DENGAN PENGELOLAAN KHUSUS', 'Peraturan Menteri', 'umK9dqd8uj4a7h20vxhk0vAj5p1sDz1mcJQRBvGR.pdf', 'peraturan', '2025-11-26 18:43:58', '2025-11-26 18:43:58'),
+(35, 'PERATURAN MENTERI LINGKUNGAN HIDUP DAN KEHUTANAN REPUBLIK INDONESIA PEDOMAN UMUM PENYALURAN BANTUAN LAINNYA YANG MEMILIKI KARAKTERISTIK BANTUAN PEMERINTAH DI LINGKUNGAN KEMENTERIAN LINGKUNGAN HIDUP DAN KEHUTANAN', 'Peraturan Menteri', 'WADVWu9pfzMnoeQkZHbZ1Jps2elaUtHUNAqigMuh.pdf', 'peraturan', '2025-11-26 18:47:46', '2025-11-26 18:47:46'),
+(36, 'Permen LHK: Perubahan Kedua P.12/2017 tentang Pedoman Penyaluran Bantuan.', 'Peraturan Menteri', 'eQ6FFidgTEBn1xj9uYSc8FbncPQzepQHThThcWjO.pdf', 'peraturan', '2025-11-26 18:51:17', '2025-11-26 18:51:17'),
+(37, 'PERATURAN MENTERI LINGKUNGAN HIDUP DAN KEHUTANAN TENTANG PERHUTANAN SOSIAL', 'Peraturan Menteri', 'fVorQeNI0YhHjcGbO9Uyztxhtx9qMFarlfF5J3la.pdf', 'peraturan', '2025-11-26 18:53:09', '2025-11-26 18:53:09'),
+(38, 'PMK 23/2025 tentang Juknis Pemberian THR dan Gaji 13 Tahun 2025 bagi Aparatur Negara, Pensiunan, dan Penerima Tunjangan.', 'Peraturan Menteri', 'GF24rdYw19ULNf0OFUoxXJ39c4dUPhNHzB9h9cfv.pdf', 'peraturan', '2025-11-26 18:55:30', '2025-11-26 18:55:30'),
+(39, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 3 TAHUN 2025 TENTANG ORGANISASI DAN TATA KERJA BALAI PEMANTAPAN KAWASAN HUTAN', 'Peraturan Menteri', 'vDddEGO6Ucy6pSg7bBiSqzroYAZjGLQwZpc8No3L.pdf', 'peraturan', '2025-11-26 18:57:52', '2025-11-26 18:57:52'),
+(40, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 4 TAHUN 2025 ... TENTANG ORGANISASI DAN TATA KERJA UNIT PELAKSANA TEKNIS DIREKTORAT JENDERAL KONSERVASI SUMBER DAYA ALAM DAN EKOSISTEM', 'Peraturan Menteri', 'J6HZq43ZpnzRHCAnLvgF6CQ7DhW5SbUgzFSE4uie.pdf', 'peraturan', '2025-11-26 18:58:17', '2025-11-26 18:58:17'),
+(41, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 5 TAHUN 2025 TENTANG ORGANISASI DAN TATA KERJA UNIT PELAKSANA TEKNIS DIREKTORAT JENDERAL PENGELOLAAN DAERAH ALIRAN SUNGAI DAN REHABILITASI HUTAN', 'Peraturan Menteri', 'eWrn1k0uG1jjaDPqx9a69XvVpaO7GMapdHivVaIz.pdf', 'peraturan', '2025-11-26 18:59:40', '2025-11-26 18:59:40'),
+(42, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 6 TAHUN 2025 ... TENTANG ORGANISASI DAN TATA KERJA BALAI PENGELOLAAN HUTAN LESTARI', 'Peraturan Menteri', 'yEDeZSvAgsW86pKM3MwXnCwB4fXRxfYcP3DsXa6Z.pdf', 'peraturan', '2025-11-26 19:02:17', '2025-11-26 19:02:17'),
+(43, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 7 TAHUN 2025 TENTANG ORGANISASI DAN TATA KERJA BALAI PERHUTANAN SOSIAL', 'Peraturan Menteri', 'PpZDako0sl4vITkAsaQImZybpyq4Vq4BKK3tCMQS.pdf', 'peraturan', '2025-11-26 19:12:44', '2025-11-26 19:12:44'),
+(44, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 8 TAHUN 2025 TENTANG ORGANISASI DAN TATA KERJA UNIT PELAKSANA TEKNIS DIREKTORAT JENDERAL PENEGAKAN HUKUM KEHUTANAN', 'Peraturan Menteri', 'Qhn9rNKfEOLD9enbYAhQ8KMzHFDyFyzlM6vot4HA.pdf', 'peraturan', '2025-11-26 19:13:20', '2025-11-26 19:13:20'),
+(45, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 9 TAHUN 2025 TENTANG ORGANISASI DAN TATA KERJA UNIT PELAKSANA TEKNIS BADAN PENYULUHAN DAN PENGEMBANGAN SUMBER DAYA MANUSIA', 'Peraturan Menteri', 'nSqUiTEU4JfyOf0tnjUOdYMnBqE6jJ25DpeqtJiK.pdf', 'peraturan', '2025-11-26 19:14:27', '2025-11-26 19:14:27'),
+(46, 'PERATURAN MENTERI KEHUTANAN REPUBLIK INDONESIA NOMOR 10 TAHUN 2025 TENTANG PENYALURAN BANTUAN PEMERINTAH DI LINGKUNGAN KEMENTERIAN KEHUTANAN', 'Peraturan Menteri', 'ObijnD89eib7DxIbiwatwD0uH6wY5KJPB1fPYAME.pdf', 'peraturan', '2025-11-26 19:15:09', '2025-11-26 19:23:19');
 
 -- --------------------------------------------------------
 
@@ -636,7 +633,7 @@ ALTER TABLE `documents`
 -- AUTO_INCREMENT for table `downloads`
 --
 ALTER TABLE `downloads`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
 -- AUTO_INCREMENT for table `events`
